@@ -211,6 +211,30 @@ figcaption {
   padding-right: 1rem;
 }
 
+/* end of global styles */
+
+.container {
+  background-color: var(--color-white);
+}
+
+.text-wrapper {
+  width: 100%;
+}
+
+.image-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* TODO: create css shapes fallback for when the image fails to load */
+.bg-image {
+  background: transparent url("/assets/img/icons-bg.min.svg") no-repeat scroll center center;
+  background-size: cover;
+  /*TODO: try a 360px by 640px svg*/
+}
+
 
 @media (min-width: 640px) {
   .sm\:px-6 {
@@ -227,21 +251,12 @@ figcaption {
   }
 }
 
-
 @media (min-width: 1024px) {
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 
-  .xl\:justify-start {
-    justify-content: flex-start;
-  }
-}
-
-
-/* TODO: remove @media (min-width: 1280px) { */
-@media (min-width: 1024px) {
   .xl\:justify-start {
     justify-content: flex-start;
   }
@@ -264,16 +279,6 @@ figcaption {
   .xl\:block {
     display: block !important;
   }
-}
-
-/* end of global styles */
-
-.container {
-  background-color: var(--color-white);
-}
-
-.text-wrapper {
-  width: 100%;
 }
 
 .article header {
