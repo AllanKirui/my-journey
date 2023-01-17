@@ -92,6 +92,8 @@
   --fc-3xl-min: (var(--fc-s-min) * 6);
   --fc-3xl-max: (var(--fc-s-max) * 6);
 
+  --space-m: calc(((var(--fc-m-min) / 16) * 1rem) + (var(--fc-m-max) - var(--fc-m-min)) * var(--fluid-bp));
+
   --space-m-xl: calc(((var(--fc-m-min) / 16) * 1rem) + (var(--fc-xl-max) - var(--fc-m-min)) * var(--fluid-bp));
 }
 
@@ -300,5 +302,18 @@ figcaption {
 }
 
 .landing img {
+  max-width: 100%;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: .8em;
+}
+
+.gif-container {
+  margin-bottom: var(--space-m);
+}
+
+.gif-container img {
   max-width: 100%;
 }
