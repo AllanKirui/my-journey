@@ -72,6 +72,29 @@
   --step-8: calc(((var(--f-8-min) / 16) * 1rem) + (var(--f-8-max) - var(--f-8-min)) * var(--fluid-bp));
 }
 
+:root {
+  --fc-3xs-min: (var(--fc-s-min) * 0.25);
+  --fc-3xs-max: (var(--fc-s-max) * 0.25);
+  --fc-2xs-min: (var(--fc-s-min) * 0.5);
+  --fc-2xs-max: (var(--fc-s-max) * 0.5);
+  --fc-xs-min: (var(--fc-s-min) * 0.75);
+  --fc-xs-max: (var(--fc-s-max) * 0.75);
+  --fc-s-min: (var(--f-0-min, 16));
+  --fc-s-max: (var(--f-0-max, 20));
+  --fc-m-min: (var(--fc-s-min) * 1.5);
+  --fc-m-max: (var(--fc-s-max) * 1.5);
+  --fc-l-min: (var(--fc-s-min) * 2);
+  --fc-l-max: (var(--fc-s-max) * 2);
+  --fc-xl-min: (var(--fc-s-min) * 3);
+  --fc-xl-max: (var(--fc-s-max) * 3);
+  --fc-2xl-min: (var(--fc-s-min) * 4);
+  --fc-2xl-max: (var(--fc-s-max) * 4);
+  --fc-3xl-min: (var(--fc-s-min) * 6);
+  --fc-3xl-max: (var(--fc-s-max) * 6);
+
+  --space-m-xl: calc(((var(--fc-m-min) / 16) * 1rem) + (var(--fc-xl-max) - var(--fc-m-min)) * var(--fluid-bp));
+}
+
 *,
 *::after,
 *::before {
@@ -232,3 +255,33 @@ figcaption {
 }
 
 /* end of global styles */
+
+.container {
+  background-color: var(--color-white);
+}
+
+.text-wrapper {
+  width: 100%;
+}
+
+.article header {
+  padding: var(--space-m-xl) 0;
+}
+
+.article header small {
+  display: inline-block;
+}
+
+.article__title {
+  margin-bottom: 1rem;
+}
+
+.landing {
+  max-width: 700px;
+  max-height: 393.75px;
+  margin-bottom: var(--space-m-xl);
+}
+
+.landing img {
+  max-width: 100%;
+}
