@@ -317,3 +317,15 @@ h3 {
 .gif-container img {
   max-width: 100%;
 }
+
+ol {
+  margin-bottom: 1.5rem;
+}
+
+ol li {
+  margin-left: 2rem;
+}
+
+ol li.has-image figure {
+  margin-top: 1rem;
+}
