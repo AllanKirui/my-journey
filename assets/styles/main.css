@@ -322,10 +322,19 @@ ol {
   margin-bottom: 1.5rem;
 }
 
+ul li,
 ol li {
   margin-left: 2rem;
 }
 
+ul {
+  margin-bottom: 1rem;
+}
+
 ol li.has-image figure {
   margin-top: 1rem;
+}
+
+code {
+  background: #e6e6e6;
 }
