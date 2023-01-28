@@ -243,11 +243,10 @@ figure {
   bottom: 0;
 }
 
-/* TODO: create css shapes fallback for when the image fails to load */
+
 .bg-image {
-  background: transparent url("/assets/img/icons-bg.min.svg") no-repeat scroll center center;
+  background: #f9f9f9 url("/assets/img/icons-bg.min.svg") no-repeat scroll center center;
   background-size: cover;
-  /*TODO: try a 360px by 640px svg*/
 }
 
 
