@@ -19,6 +19,7 @@
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol";
+  --font-family-2: "Dancing Script", "Inter", sans-serif;
 }
 
 /* adaptive units based on the viewport size */
@@ -322,6 +323,10 @@ figure img {
 
 .gif-container img {
   max-width: 100%;
+}
+
+.font-2 {
+  font-family: var(--font-family-2);
 }
 
 ol {
