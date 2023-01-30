@@ -309,20 +309,18 @@ figure {
   margin-bottom: 1rem;
 }
 
-.landing {
-  margin-bottom: var(--space-m-xl);
+figure {
+  margin-bottom: var(--space-m);
 }
 
 figure img {
   max-width: 100%;
+  height: auto;
+  background: #f9f9f9;
 }
 
-.gif-container {
-  margin-bottom: var(--space-m);
-}
-
-.gif-container img {
-  max-width: 100%;
+.landing {
+  margin-bottom: var(--space-m-xl);
 }
 
 .font-2 {
