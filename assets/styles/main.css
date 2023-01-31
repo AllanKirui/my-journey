@@ -319,10 +319,6 @@ figure img {
   background: #f9f9f9;
 }
 
-.landing {
-  margin-bottom: var(--space-m-xl);
-}
-
 .font-2 {
   font-family: var(--font-family-2);
 }
