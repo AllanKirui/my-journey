@@ -310,6 +310,20 @@ figure {
   margin-bottom: 1rem;
 }
 
+.meta small span {
+  position: relative;
+  margin-right: 5px;
+}
+
+.meta small span img {
+  position: relative;
+  transform: translateY(3px);
+}
+
+.meta small:not(:last-child) {
+  margin-right: 8px;
+}
+
 figure {
   margin-bottom: var(--space-m);
 }
