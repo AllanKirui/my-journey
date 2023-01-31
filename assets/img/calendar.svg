@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="35.3"
+   viewBox="0 0 8.467 9.34"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="calendar.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="18.243626"
+     inkscape:cx="16.032997"
+     inkscape:cy="17.65"
+     inkscape:window-width="1600"
+     inkscape:window-height="827"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M-124.395 266.73v1.303M-120.922 266.73v1.303M-120.922 267.381c1.446.078 2.171.63 2.171 2.67v2.684c0 1.789-.434 2.683-2.605 2.683h-2.605c-2.17 0-2.605-.894-2.605-2.683v-2.683c0-2.041.725-2.588 2.17-2.67zM-118.86 273.503h-7.598"
+     stroke="#292d32"
+     stroke-width=".651"
+     stroke-miterlimit="10"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     style="fill:none;stroke:#666666;stroke-opacity:1"
+     transform="translate(126.892 -266.404)"
+     id="path2" />
+  <path
+     d="M-122.658 269.444c-.534 0-.986.29-.986.855 0 .27.126.473.317.604a.802.802 0 0 0-.417.703c0 .538.413.873 1.086.873.668 0 1.085-.335 1.085-.873a.793.793 0 0 0-.421-.703.701.701 0 0 0 .317-.604c0-.564-.447-.855-.981-.855zm0 1.233c-.226 0-.391-.135-.391-.348 0-.217.165-.343.39-.343.226 0 .391.126.391.343 0 .213-.165.348-.39.348zm0 1.263c-.287 0-.495-.143-.495-.404 0-.26.208-.399.495-.399.286 0 .495.143.495.4 0 .26-.209.403-.495.403z"
+     fill="#292d32"
+     style="fill:#666666;fill-opacity:1;stroke-width:0.434188"
+     transform="translate(126.892 -266.404)"
+     id="path4" />
+</svg>
