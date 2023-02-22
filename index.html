@@ -23,17 +23,28 @@
     />
 
     <link rel="stylesheet" href="/assets/styles/main.css" />
+    <script src="/assets/scripts/main.js" defer></script>
   </head>
   <body>
-    <!-- TODO: insert header -->
-
     <main id="main" class="article">
       <div class="container flex flex-jc-c xl:justify-start">
         <div
           class="text-wrapper flex flex-jc-c flex-fd-c xl:px-24 xl:w-2/3 lg:px-20 md:px-12 sm:px-6 px-4 py-4"
         >
           <div class="mx-auto w-full">
-            <header>
+            <a
+              href="#header"
+              aria-labelledby="back-up"
+              class="back-to-top"
+              id="back-to-top"
+            >
+              <span id="back-up-text" class="back-up-text hidden"
+                >Back to top</span
+              >
+              <span id="back-up-arrow" class="back-up-arrow">&#x1F815;</span>
+            </a>
+
+            <header id="header">
               <h1 class="article__title">
                 Learning to Code on a 12 Year Old Machine - A Journey of
                 Patience and Perseverance
