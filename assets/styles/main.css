@@ -377,6 +377,16 @@ figure {
   margin-right: 8px;
 }
 
+.meta .article__author {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.meta .article__author a {
+  color: var(--color-eerie-black);
+  font-weight: 700;
+}
+
 figure {
   margin-bottom: var(--space-m);
 }
