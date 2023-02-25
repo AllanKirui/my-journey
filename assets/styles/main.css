@@ -443,6 +443,30 @@ blockquote {
   text-decoration: none;
 }
 
+.share-links button {
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.share-links button.copied::before {
+  content: "copied!";
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: var(--color-black-brown);
+  color: var(--color-white);
+  font-size: 0.875rem;
+  z-index: 10;
+}
+
 .profile-wrapper {
   display: grid;
   grid-template-columns: 125px 1fr;
@@ -450,11 +474,13 @@ blockquote {
   gap: 1rem;
 }
 
+.share-links button>svg,
 .share-links a>svg,
 .contact-link>svg {
   transition: all .2s ease-in-out;
 }
 
+.share-links button svg:hover,
 .share-links a>svg:hover,
 .contact-link>svg:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
