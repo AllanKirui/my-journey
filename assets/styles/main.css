@@ -133,24 +133,18 @@ p {
   overflow-wrap: break-word;
 }
 
-h4 {
+h3 {
   font-size: var(--step-2);
   line-height: 1.2;
   margin-bottom: .6em;
 
 }
 
-h3 {
+h2 {
   font-size: var(--step-3);
   line-height: 1.2;
   margin-top: 1em;
   margin-bottom: .8em;
-}
-
-h2 {
-  font-size: var(--step-4);
-  line-height: 1.2;
-  letter-spacing: -1px;
 }
 
 h1 {
