@@ -1,3 +1,22 @@
+// update the page views count
+function updateViewCount() {
+  const countWrapperEl = document.getElementById("article-views");
+  const countEl = document.getElementById("view-counter");
+
+  if (fetch) {
+    countWrapperEl.classList.remove("hidden");
+    fetch(
+      "https://api.countapi.xyz/update/allan-kirui/my-journey-blog/?amount=1"
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        countEl.textContent = data.value;
+      });
+  } else {
+    countWrapperEl.classList.add("hidden");
+  }
+}
+
 // calculate the window's scroll position to hide or show the 'back-to-top' button
 function calcScrollPos() {
   const backToTopEl = document.getElementById("back-to-top");
@@ -32,5 +51,6 @@ async function copyUrlHandler() {
   }
 }
 
+updateViewCount();
 window.addEventListener("scroll", calcScrollPos);
 copyBtn.addEventListener("click", copyUrlHandler);
