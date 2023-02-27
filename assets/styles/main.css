@@ -359,6 +359,11 @@ figure {
   margin-bottom: 1rem;
 }
 
+
+.article__views.hidden {
+  display: none;
+}
+
 .meta small span {
   position: relative;
   margin-right: 5px;
